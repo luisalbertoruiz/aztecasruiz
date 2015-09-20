@@ -16,7 +16,7 @@
 			<li><a href="{{ URL::to('galeria') }}"><span class="glyphicon glyphicon-picture"></span> Galeria</a></li>
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
-			<li><a class="fbnb" href="https://www.facebook.com/pages/Pumas-Ruiz/1435980493396037">{{ HTML::image('src/fbpr.png', 'facebook',array('class'=>'home')) }}</a></li>
+			<li><a class="fbnb" href="#">{{ HTML::image('src/fbpr.png', 'facebook',array('class'=>'home')) }}</a></li>
 			<li><a href="{{ URL::to('login') }}"><span class="glyphicon glyphicon-log-in"></a></li>
 		</ul>
 	</div>
