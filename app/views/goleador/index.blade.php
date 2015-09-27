@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Goleadores Pumas Ruiz F.C.
+Goleadores Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

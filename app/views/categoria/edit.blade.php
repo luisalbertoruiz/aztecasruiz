@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Editar Categoria {{$categoria->nombre}} Pumas Ruiz F.C.
+Editar Categoria {{$categoria->nombre}} Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

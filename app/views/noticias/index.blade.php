@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Noticias Pumas Ruiz F.C.
+Noticias Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

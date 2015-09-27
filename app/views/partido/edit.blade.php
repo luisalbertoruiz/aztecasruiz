@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Editar Partido Pumas Ruiz F.C.
+Editar Partido Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

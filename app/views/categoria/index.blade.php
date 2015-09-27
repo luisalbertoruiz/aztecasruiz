@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Categorias Pumas Ruiz F.C.
+Categorias Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

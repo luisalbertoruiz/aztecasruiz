@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Editar Cancha {{$cancha->nombre}} Pumas Ruiz F.C.
+Editar Cancha {{$cancha->nombre}} Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

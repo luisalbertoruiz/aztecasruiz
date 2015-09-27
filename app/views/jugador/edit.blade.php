@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Editar Jugador {{ $jugador->nombre.' '.$jugador->apellido}} Pumas Ruiz F.C.
+Editar Jugador {{ $jugador->nombre.' '.$jugador->apellido}} Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

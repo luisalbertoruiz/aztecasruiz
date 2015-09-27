@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-{{ $noticia->titulo }} :: Pumas Ruiz F.C.
+{{ $noticia->titulo }} :: Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

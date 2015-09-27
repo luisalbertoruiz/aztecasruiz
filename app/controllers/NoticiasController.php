@@ -71,8 +71,7 @@ class NoticiasController extends \BaseController {
             $tipo = 'alert-success';
             $mensaje ="La noticia se genero correctamente";
         }
-        return Redirect::to('admin/noticia')
-        ->with($tipo, $mensaje);
+        Session::put($tipo, $mensaje);
     }
 
     /**
@@ -146,8 +145,7 @@ class NoticiasController extends \BaseController {
             $tipo = 'alert-success';
             $mensaje ="La noticia se edito correctamente";
         }
-        return Redirect::to('admin/noticia')
-        ->with($tipo, $mensaje);
+        Session::put($tipo, $mensaje);
     }
 
     /**
@@ -159,7 +157,10 @@ class NoticiasController extends \BaseController {
      */
     public function destroy($id)
     {
-        //
+        $noticia = Noticia::find($id);
+        $noticia->delete();
+        return Redirect::to('admin/noticia')
+        ->with('alert-danger', 'Se ha eliminado correctamente la noticia.');
     }
 
 }

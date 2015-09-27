@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Equipo {{ $equipo->nombre }} Pumas Ruiz F.C.
+Equipo {{ $equipo->nombre }} Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

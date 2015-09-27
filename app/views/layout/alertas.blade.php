@@ -16,6 +16,7 @@
 		};
 		toastr.success("{{ Session::get('alert-success') }}", "¡Correcto!");
 </script>
+{{Session::forget('alert-success')}}
 @endif
 @if(Session::has('alert-warning'))
 	<script>
@@ -35,6 +36,7 @@
 		};
 		toastr.warning("{{ Session::get('alert-warning') }}", "¡Atención!",opts);
 </script>
+{{Session::forget('alert-warning')}}
 @endif
 @if(Session::has('alert-danger'))
 <script>
@@ -54,4 +56,5 @@
 		};
 		toastr.error("{{ Session::get('alert-danger') }}", "¡Alerta!",opts);
 </script>
+{{Session::forget('alert-danger')}}
 @endif

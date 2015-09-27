@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Slider Imagen No. {{ $slider->id}} Pumas Ruiz F.C.
+Slider Imagen No. {{ $slider->id}} Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

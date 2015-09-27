@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-{{ $jugador->nombre.' '.$jugador->apellido}} Pumas Ruiz F.C.
+{{ $jugador->nombre.' '.$jugador->apellido}} Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

@@ -16,7 +16,7 @@
                     <tr>
                         <th>1</th>
                         <td>{{ HTML::image('src/escudos/pumas.png', 'local',array('class'=>'escudoTabla')) }}
-                        Pumas Ruiz FC</td>
+                        Aztecas Ruiz FC</td>
                         <td>0</td>
                     </tr>
                     <tr>

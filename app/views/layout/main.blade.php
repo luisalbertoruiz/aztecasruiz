@@ -54,7 +54,11 @@
 				'format': 'yyyy-m-d'
 			});
 			$('.datepicker').datepicker({
-				'format': 'yyyy-m-d'
+				'format': 'yyyy-m-d',
+				'autoclose':true,
+				'todayBtn':true,
+				'todayHighlight':true,
+				'language':'es'
 			});
 		});
 		</script>

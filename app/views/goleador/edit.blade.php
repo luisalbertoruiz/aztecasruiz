@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Editar Goleo Pumas Ruiz F.C.
+Editar Goleo Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

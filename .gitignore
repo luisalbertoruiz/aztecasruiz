@@ -1,3 +1,5 @@
 app/config/app.php
 app/config/database.php
+public/src/noticias/
+public/src/slider/
 /nbproject/private/

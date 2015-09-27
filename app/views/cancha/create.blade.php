@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Nueva Cancha Pumas Ruiz F.C.
+Nueva Cancha Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')

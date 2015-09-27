@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-Slider Pumas Ruiz F.C.
+Slider Aztecas Ruiz F.C.
 @stop
 @section('header')
 	@include('layout.header')
